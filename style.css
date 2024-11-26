@@ -26,6 +26,7 @@ p {
     src: url(./fonts/butler.zip);
 }
 .container {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -77,6 +78,7 @@ h2 {
     color: lightgrey;
 }
 .container2 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     margin-top: 5rem;
@@ -133,6 +135,7 @@ h2 {
     src: url(./fonts/Apercu-Font-Family.zip);
 }
 .container7 {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     row-gap: 5rem;
@@ -143,6 +146,7 @@ h2 {
 .container8 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .container8 h2{
     color: red;
@@ -169,6 +173,7 @@ h2 {
     font-weight: bold;
 }
 .container10 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
 }
@@ -183,6 +188,7 @@ h2 {
     font-size: 2rem;
 }
 .container11{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
 }
@@ -430,6 +436,7 @@ h2 {
     font-size: 6rem;
 }
 .container28 {
+    flex-wrap: wrap;
     display: flex;
     background-color: #ffffff0f;
     padding-bottom: 3rem;
@@ -547,6 +554,7 @@ h2 {
     margin-bottom: 4rem;
 }
 .container40 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     margin-bottom: 3rem;
@@ -555,6 +563,7 @@ h2 {
     width: 227px;
 }
 .container41 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
@@ -574,16 +583,19 @@ h2 {
     color: lightgrey;
 }
 .container42 {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     row-gap: 3rem;
 }
 .container43 {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     row-gap: 3rem;
 }
 .container46 {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -599,7 +611,31 @@ h2 {
     padding: 1rem;
 }
 .container48 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
+}
+.container49 {
+    text-align: center;
+}
+.container49 h1 {
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-family: apercu;
+    src: url(./fonts/Apercu-Font-Family.zip);
+    margin-bottom: 3rem;
+}
+.container49 h2 {
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-family: apercu;
+    src: url(./fonts/Apercu-Font-Family.zip);
+    margin-bottom: 3rem;
+}
+.container49 p {
+    font-size: 2rem;
+    color: #ffffffb3;
+    font-weight: lighter;
+    margin: 0px 0px 15px;
 }
